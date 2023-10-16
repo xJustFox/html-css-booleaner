@@ -80,3 +80,31 @@ table{
     background-color: rgba(144, 182, 252, 0.696);
 }
 
+/*Footer*/
+#advice-1{
+    height: 170px;
+    width: 250px;
+    background-image: url(/img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+#advice-2{
+    height: 170px;
+    width: 250px;
+    background-image: url(/img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.text-advice{
+    display: block;
+    padding-top: 10px;
+    padding-left: 15px;
+
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
