@@ -66,13 +66,12 @@ main, footer{
 
 table{
     text-align: left; 
-    border-collapse: collapse;
     border-spacing: 0;
     
 }
 
 .th-width{
-    width: 250px;
+    width: 50%;
 }
 
 #style-th{
@@ -86,22 +85,20 @@ table{
 
 /*Footer*/
 
-#advice-1{
+.advice-image{
     height: 170px;
-    width: 250px;
-    background-image: url(/Bonus/img/monitor.jpg);
+    width: 250;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 10px;
+    margin-top: 10px
+}
+
+#advice-1{
+    background-image: url(../Bonus/img/monitor.jpg);
 }
 
 #advice-2{
-    height: 170px;
-    width: 250px;
-    background-image: url(/Bonus/img/graph.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 10px;
+    background-image: url(../Bonus/img/graph.jpg);
 }
 
 .text-advice{
